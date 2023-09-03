@@ -6,7 +6,7 @@ const removeTestidPlugin: () => Plugin = () => ({
 	setup(build) {
 		build.onLoad({ filter: /.*\.tsx$/ }, args => {
 			const text = fs.readFileSync(args.path, "utf8");
-			return { contents: text.replace(/\s*data-testid="[^"]*"/gm, " ") };
+			return { contents: text.replace(/\s*data-testid="[^"]*"/gm, " "), loader: "tsx" };
 		});
 	},
 });

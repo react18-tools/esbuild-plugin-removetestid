@@ -33,6 +33,7 @@
 		"esbuild-plugin-ignoretests": "^0.0.3",
 		"esbuild-react18-useclient": "^1.0.5",
 		"eslint-config-custom": "workspace:*",
+		"esbuild-plugin-removetestid": "workspace:*",
 		"jsdom": "^22.1.0",
 		"octokit": "^3.1.0",
 		"react": "^18.2.0",
