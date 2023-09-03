@@ -1,0 +1,43 @@
+{
+	"name": "esbuild-plugin-removetestid",
+	"author": "Mayank Kumar Chaudhari <https://mayank-chaudhari.vercel.app>",
+	"private": false,
+	"version": "0.0.3",
+	"description": "An intuitive React.js fork me ribbon component for promoting open source project forks.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mayank1513/esbuild-plugin-removetestid.git"
+	},
+	"bugs": {
+		"url": "https://github.com/mayank1513/esbuild-plugin-removetestid/issues"
+	},
+	"homepage": "https://github.com/mayank1513/esbuild-plugin-removetestid/tree/main/packages/ui#readme",
+	"sideEffects": false,
+	"license": "MIT",
+	"scripts": {
+		"build": "tsc && node touchup.js",
+		"publish-package": "cd dist && npm publish --access public"
+	},
+	"devDependencies": {
+		"@types/node": "^18",
+		"esbuild": "^0.18.17",
+		"octokit": "^3.1.0",
+		"typescript": "^5.1.6",
+		"vitest": "^0.34.1"
+	},
+	"funding": {
+		"type": "github",
+		"url": "https://github.com/sponsors/mayank1513"
+	},
+	"keywords": [
+		"esbuild",
+		"esbuild-plugin",
+		"esbuild-plugin-removetestid",
+		"tsup",
+		"typescript",
+		"javascript",
+		"mayank1513"
+	]
+}
