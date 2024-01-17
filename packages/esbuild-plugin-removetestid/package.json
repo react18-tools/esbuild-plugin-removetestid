@@ -21,11 +21,11 @@
 		"publish-package": "cd dist && npm publish --access public"
 	},
 	"devDependencies": {
-		"@types/node": "^18",
-		"esbuild": "^0.18.17",
-		"octokit": "^3.1.0",
-		"typescript": "^5.1.6",
-		"vitest": "^0.34.1"
+		"@types/node": "^20.11.4",
+		"esbuild": "^0.19.11",
+		"octokit": "^3.1.2",
+		"typescript": "^5.3.3",
+		"vitest": "^1.2.0"
 	},
 	"funding": {
 		"type": "github",
