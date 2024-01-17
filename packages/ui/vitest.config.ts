@@ -11,7 +11,7 @@ export default defineConfig({
 		setupFiles: [],
 		coverage: {
 			reporter: ["text", "json", "html"],
+			include: ["src/**/*.tsx"],
 		},
-		threads: true,
 	},
 });
